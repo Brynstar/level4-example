@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
     app:startDestination="@id/reminderFragment">
-
     <fragment
         android:id="@+id/reminderFragment"
-        android:name="com.example.madlevel3example.ReminderFragment"
+        android:name="com.example.madlevel4example.ReminderFragment"
         android:label="fragment_reminder"
-        tools:layout="@layout/fragment_reminder" >
+        tools:layout="@layout/fragment_reminder">
         <action
             android:id="@+id/action_reminderFragment_to_addReminderFragment"
             app:destination="@id/addReminderFragment" />
     </fragment>
     <fragment
         android:id="@+id/addReminderFragment"
-        android:name="com.example.madlevel3example.AddReminderFragment"
+        android:name="com.example.madlevel4example.AddReminderFragment"
         android:label="fragment_add_reminder"
         tools:layout="@layout/fragment_add_reminder" />
 </navigation>
